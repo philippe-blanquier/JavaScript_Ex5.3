@@ -9,3 +9,20 @@ input:valid
 {
    border: 4px solid green;
 }
+input:required
+{
+   background-color: blueviolet;
+}
+input:required:invalid
+{
+   background-color: red;
+   color: yellow;
+}
+form:invalid
+{
+   border:  10px solid black;
+}
+form:valid
+{
+   border:  2px solid green;
+}
